@@ -91,4 +91,5 @@ public class BookController {
         modelMap.addAttribute("bookAnathorRecommendList", bookAnathorRecommendList);
         return "viewBookDetail";
     }
+
 }
