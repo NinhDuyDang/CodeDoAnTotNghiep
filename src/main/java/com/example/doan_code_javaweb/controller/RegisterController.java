@@ -75,6 +75,7 @@ public class RegisterController {
      * @param redirectAttributes
      * @return đường dẫn trang confirmed
      */
+
     @GetMapping(path = "register/confirm")
     public String confirmToken(@RequestParam("token") String token, RedirectAttributes redirectAttributes) {
         System.out.println("bấm vào link trong email gọi toi hàm này");
